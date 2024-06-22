@@ -28,7 +28,7 @@ def main():
 
     while True:
         enemy_choice = list(names.keys())[rng.randint(0,2)]
-        user_choice = "blyat davai"
+        user_choice = "none"
         while validate_input(user_choice) == False:
             user_choice = input("Enter Your Attack (rps): ")
         
